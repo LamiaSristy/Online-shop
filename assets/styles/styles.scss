@@ -13,6 +13,11 @@ $color-jumbotron: linear-gradient(to bottom, #D35266 0%, #888888 100%);
     color: $color-grey;
 }
 
+.pink-button {
+    background-color: $color-pink;
+}
+
+
 header {
     background: $color-black;
     img {
@@ -58,4 +63,9 @@ footer {
         font-family: gotham-bold, serif;             
     }
    
+}
+
+.img-search-page {
+    height: 200px;
+    width: 300px;
 }

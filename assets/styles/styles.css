@@ -6,6 +6,10 @@
   color: #888888;
 }
 
+.pink-button {
+  background-color: #D35266;
+}
+
 header {
   background: #383838;
 }
@@ -44,5 +48,10 @@ footer {
 
 footer h5 {
   font-family: gotham-bold, serif;
+}
+
+.img-search-page {
+  height: 200px;
+  width: 300px;
 }
 /*# sourceMappingURL=styles.css.map */
