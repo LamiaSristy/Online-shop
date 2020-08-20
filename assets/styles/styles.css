@@ -50,8 +50,30 @@ footer h5 {
   font-family: gotham-bold, serif;
 }
 
-.img-search-page {
-  height: 200px;
-  width: 300px;
+.search-area p {
+  font-size: 12px;
+}
+
+.search-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px;
+}
+
+.form-flex-secondary {
+  margin-left: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

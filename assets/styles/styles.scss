@@ -65,7 +65,25 @@ footer {
    
 }
 
-.img-search-page {
-    height: 200px;
-    width: 300px;
+.search-area {
+    p {
+        font-size: 12px;
+    }
+}
+
+
+
+.search-flex {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.form-flex {
+    display: flex;
+    justify-content: space-between;   
+    margin: 20px;    
+}
+
+.form-flex-secondary {
+    margin-left: 10px;
 }
