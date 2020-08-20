@@ -38,7 +38,17 @@ header .text-color:hover {
   background-color: #D35266;
 }
 
+.hot-topic h2 {
+  color: #888888;
+}
+
 footer {
-  background-color: #888888;
+  font-family: gotham-rounded-light, serif;
+  color: #888888;
+}
+
+footer h5 {
+  font-family: gotham-bold, serif;
+  color: #D35266;
 }
 /*# sourceMappingURL=styles.css.map */

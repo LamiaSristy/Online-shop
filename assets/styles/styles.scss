@@ -4,6 +4,7 @@ $color-pink: #D35266;
 $color-white:rgb(248, 246, 246);
 $color-jumbotron: linear-gradient(to bottom, #D35266 0%, #888888 100%);
 
+
 header {
     background: $color-black;
     img {
@@ -40,6 +41,20 @@ header {
     }
 }
 
+.hot-topic {
+    h2 {
+        color: $color-grey;  
+    }
+}
+
+
+
 footer {
-    background-color: $color-grey;
+    font-family: gotham-rounded-light, serif;
+    color: $color-grey;
+    h5{
+        font-family: gotham-bold, serif;
+        color: $color-pink;        
+    }
+   
 }
