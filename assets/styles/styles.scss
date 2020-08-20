@@ -1,0 +1,45 @@
+$color-black: #383838;
+$color-grey: #888888;
+$color-pink: #D35266;
+$color-white:rgb(248, 246, 246);
+$color-jumbotron: linear-gradient(to bottom, #D35266 0%, #888888 100%);
+
+header {
+    background: $color-black;
+    img {
+        height: 30px;
+    }
+    .home {
+        color: $color-pink;
+        &:hover{
+            color: white;
+        } 
+    }
+    .text-color {
+        color: $color-grey;
+        &:hover{
+            color: white;
+        } 
+    }
+}
+
+.jumbotron {    
+     background-color: $color-pink !important;    
+}
+
+
+.carousel-item {
+    img {
+        height: 250px;       
+    }
+    h5 {
+        color: $color-pink;
+    }
+    button {
+        background-color: $color-pink;
+    }
+}
+
+footer {
+    background-color: $color-grey;
+}

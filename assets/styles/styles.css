@@ -1,0 +1,44 @@
+header {
+  background: #383838;
+}
+
+header img {
+  height: 30px;
+}
+
+header .home {
+  color: #D35266;
+}
+
+header .home:hover {
+  color: white;
+}
+
+header .text-color {
+  color: #888888;
+}
+
+header .text-color:hover {
+  color: white;
+}
+
+.jumbotron {
+  background-color: #D35266 !important;
+}
+
+.carousel-item img {
+  height: 250px;
+}
+
+.carousel-item h5 {
+  color: #D35266;
+}
+
+.carousel-item button {
+  background-color: #D35266;
+}
+
+footer {
+  background-color: #888888;
+}
+/*# sourceMappingURL=styles.css.map */
