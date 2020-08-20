@@ -1,3 +1,11 @@
+.pink-text {
+  color: #D35266;
+}
+
+.gray-text {
+  color: #888888;
+}
+
 header {
   background: #383838;
 }
@@ -6,16 +14,8 @@ header img {
   height: 30px;
 }
 
-header .home {
-  color: #D35266;
-}
-
 header .home:hover {
   color: white;
-}
-
-header .text-color {
-  color: #888888;
 }
 
 header .text-color:hover {
@@ -30,25 +30,19 @@ header .text-color:hover {
   height: 250px;
 }
 
-.carousel-item h5 {
-  color: #D35266;
-}
-
 .carousel-item button {
   background-color: #D35266;
 }
 
-.hot-topic h2 {
-  color: #888888;
+.main-area img {
+  height: 200px;
 }
 
 footer {
   font-family: gotham-rounded-light, serif;
-  color: #888888;
 }
 
 footer h5 {
   font-family: gotham-bold, serif;
-  color: #D35266;
 }
 /*# sourceMappingURL=styles.css.map */

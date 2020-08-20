@@ -5,19 +5,25 @@ $color-white:rgb(248, 246, 246);
 $color-jumbotron: linear-gradient(to bottom, #D35266 0%, #888888 100%);
 
 
+.pink-text {
+    color: $color-pink;
+}
+
+.gray-text {
+    color: $color-grey;
+}
+
 header {
     background: $color-black;
     img {
         height: 30px;
     }
-    .home {
-        color: $color-pink;
+    .home {       
         &:hover{
             color: white;
         } 
     }
-    .text-color {
-        color: $color-grey;
+    .text-color {       
         &:hover{
             color: white;
         } 
@@ -33,28 +39,23 @@ header {
     img {
         height: 250px;       
     }
-    h5 {
-        color: $color-pink;
-    }
+    
     button {
         background-color: $color-pink;
     }
 }
 
-.hot-topic {
-    h2 {
-        color: $color-grey;  
+.main-area {
+    img {
+        height: 200px;
     }
 }
 
-
-
 footer {
     font-family: gotham-rounded-light, serif;
-    color: $color-grey;
+    // color: $color-grey;
     h5{
-        font-family: gotham-bold, serif;
-        color: $color-pink;        
+        font-family: gotham-bold, serif;             
     }
    
 }
