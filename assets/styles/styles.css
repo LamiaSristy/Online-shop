@@ -50,6 +50,10 @@ footer h5 {
   font-family: gotham-bold, serif;
 }
 
+footer .footer-logo {
+  height: 50px;
+}
+
 .search-area p {
   font-size: 12px;
 }
