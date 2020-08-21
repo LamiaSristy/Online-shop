@@ -4,12 +4,10 @@
     <img src="assets/img/Logo.png" alt="Loniryy logo" title="Loniryy" width="200"></a>
   <br>
       Loniryy 
+      
   <br>
 </h1>
 
-
-# wristwatch-shop
-======================
 Loniryy is an online shop for buying and selling wristwatches. This is the perfect place for purchasing fashionable watches as well as refurbished ones. 
 The website designed by following an online shop for electronics designed by Mohammed Awad on Behance.
 
@@ -21,6 +19,14 @@ The website designed by following an online shop for electronics designed by Moh
 <img src="assets/img/screenshot.png">
 
 
+
+
+## Live Demo
+
+-[Home-Page](https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/index.html)
+
+-[Search-Page](https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/search.html)
+
 ## Built With
 
 - HTML
@@ -28,11 +34,6 @@ The website designed by following an online shop for electronics designed by Moh
 - Scss
 - Bootstrap 4
 - Font awesome icons
-
-## Live Demo
-
-[Home-Page](https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/index.html)
-[Search-Page](https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/search.html)
 
 
 ## Key Features
