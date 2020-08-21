@@ -17,6 +17,29 @@ $color-jumbotron: linear-gradient(to bottom, #D35266 0%, #888888 100%);
     background-color: $color-pink;
 }
 
+body {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: helvetica-neue-bold, serif;
+      }
+      
+      span {
+        font-family: helvetica-neue-light, serif;
+      }
+      
+      label {        
+        font-family: helvetica-neue-medium, serif;
+      }
+      
+      p {        
+        font-family: gotham-rounded-light, serif;
+        margin: 0;
+      }
+}
+
 header {
     background: $color-black;
     img {
@@ -56,8 +79,7 @@ header {
 }
 
 footer {
-    font-family: gotham-rounded-light, serif;
-    // color: $color-grey;
+    font-family: gotham-rounded-light, serif;    
     h5{
         font-family: gotham-bold, serif;             
     }
@@ -74,6 +96,10 @@ footer {
 }
 
 
+
+.custom-searchbox {
+    width: 50px;   
+}
 
 .search-flex {
     display: flex;
