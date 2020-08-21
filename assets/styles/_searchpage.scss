@@ -1,0 +1,33 @@
+@import './function';
+
+.search-area {
+    p {
+        font-size: 12px;
+    }
+}
+
+.product {
+    &:hover{
+        background-color: gray;
+        p {
+            color: white;
+        }
+    }
+}
+
+.custom-searchbox {
+    width: 50px;   
+}
+
+.search-flex {
+    @include flexCenter;  
+}
+
+.form-flex {
+    @include flexCenter;
+    margin: 20px;    
+}
+
+.form-flex-secondary {
+    margin-left: 10px;
+}

@@ -1,3 +1,48 @@
+.search-area p {
+  font-size: 12px;
+}
+
+.product:hover {
+  background-color: gray;
+}
+
+.product:hover p {
+  color: white;
+}
+
+.custom-searchbox {
+  width: 50px;
+}
+
+.search-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+.form-flex-secondary {
+  margin-left: 10px;
+}
+
 .pink-text {
   color: #D35266;
 }
@@ -8,6 +53,19 @@
 
 .pink-button {
   background-color: #D35266;
+}
+
+.bg-pink {
+  background-color: #D35266;
+}
+
+.text-color:hover {
+  color: white;
+}
+
+body {
+  max-width: 1970px;
+  margin: 0, auto;
 }
 
 body h1,
@@ -33,6 +91,7 @@ body p {
 
 header {
   background: #383838;
+  max-width: 100%;
 }
 
 header img {
@@ -40,10 +99,6 @@ header img {
 }
 
 header .home:hover {
-  color: white;
-}
-
-header .text-color:hover {
   color: white;
 }
 
@@ -63,6 +118,13 @@ header .text-color:hover {
   height: 200px;
 }
 
+.main-area .transition:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
+}
+
 footer {
   font-family: gotham-rounded-light, serif;
 }
@@ -75,34 +137,16 @@ footer .footer-logo {
   height: 50px;
 }
 
-.search-area p {
-  font-size: 12px;
-}
-
-.custom-searchbox {
-  width: 50px;
-}
-
-.search-flex {
+footer .flex-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.form-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 20px;
-}
-
-.form-flex-secondary {
-  margin-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=styles.css.map */
