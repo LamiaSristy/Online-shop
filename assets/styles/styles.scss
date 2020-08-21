@@ -26,8 +26,7 @@
 
 
 body {    
-    max-width: 1970px;
-    margin: 0, auto ; 
+    max-width: 1900px;
     h1,
     h2,
     h3,
@@ -52,10 +51,10 @@ body {
 
 header {    
     background: $color-black;
-    max-width: 100%;
-    // position: fixed;
-    // z-index: 1;
-    // top: 0;
+    width: 100%;
+    max-width: 1900px;
+    position: fixed;
+    z-index: 1000;
     img {
         height: 30px;
     }

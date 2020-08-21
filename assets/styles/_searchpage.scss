@@ -9,7 +9,8 @@
 .product {
     &:hover{
         background-color: gray;
-        p {
+        p,
+        h5 {
             color: white;
         }
     }

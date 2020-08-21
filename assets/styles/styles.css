@@ -6,7 +6,8 @@
   background-color: gray;
 }
 
-.product:hover p {
+.product:hover p,
+.product:hover h5 {
   color: white;
 }
 
@@ -64,8 +65,7 @@
 }
 
 body {
-  max-width: 1970px;
-  margin: 0, auto;
+  max-width: 1900px;
 }
 
 body h1,
@@ -91,7 +91,10 @@ body p {
 
 header {
   background: #383838;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1900px;
+  position: fixed;
+  z-index: 1000;
 }
 
 header img {
