@@ -1,5 +1,12 @@
+<a href="https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/index.html">
+    <img src="assets/img/Logo.png" alt="Loniryy logo" title="Loniryy" align="right" height="60" />
+</a>
+
+
 # wristwatch-shop
-This is an online shop for buying and selling wristwatches. The website designed by following from an online shop for electronics designed by Mohammed Awad on Behance.
+======================
+Loniryy is an online shop for buying and selling wristwatches. This is the perfect place for purchasing fashionable watches as well as refurbished ones. 
+The website designed by following an online shop for electronics designed by Mohammed Awad on Behance.
 
 <img src="assets/img/screenshot.png">
 
@@ -29,7 +36,7 @@ This is an online shop for buying and selling wristwatches. The website designed
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give ⭐ Star me on GitHub — it helps!
 
 ## 📝 License
 
