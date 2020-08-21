@@ -1,6 +1,11 @@
-<a href="https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/index.html">
-    <img src="assets/img/Logo.png" alt="Loniryy logo" title="Loniryy" align="right" height="60" />
-</a>
+<h1 align="center">
+  <br>
+  <a href="https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/index.html">
+    <img src="assets/img/Logo.png" alt="Loniryy logo" title="Loniryy" width="200"></a>
+  <br>
+      Loniryy 
+  <br>
+</h1>
 
 
 # wristwatch-shop
