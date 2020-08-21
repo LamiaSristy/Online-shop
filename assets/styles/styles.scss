@@ -3,106 +3,109 @@
 @import './searchpage';
 
 .pink-text {
-    color: $color-pink;
+  color: $color-pink;
 }
 
 .gray-text {
-    color: $color-grey;
+  color: $color-grey;
 }
 
 .pink-button {
-    background-color: $color-pink;
+  background-color: $color-pink;
 }
 
 .bg-pink {
-    background-color: $color-pink;
+  background-color: $color-pink;
 }
 
-.text-color {       
-    &:hover{
-        color: white;
-    } 
+.text-color {
+  &:hover {
+    color: white;
+  }
 }
 
+body {
+  max-width: 1900px;
 
-body {    
-    max-width: 1900px;
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        font-family: helvetica-neue-bold, serif;
-      }
-      
-      span {
-        font-family: helvetica-neue-light, serif;
-      }
-      
-      label {        
-        font-family: helvetica-neue-medium, serif;
-      }
-      
-      p {        
-        font-family: gotham-rounded-light, serif;
-        margin: 0;
-      }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: helvetica-neue-bold, serif;
+  }
+
+  span {
+    font-family: helvetica-neue-light, serif;
+  }
+
+  label {
+    font-family: helvetica-neue-medium, serif;
+  }
+
+  p {
+    font-family: gotham-rounded-light, serif;
+    margin: 0;
+  }
 }
 
-header {    
-    background: $color-black;
-    width: 100%;
-    max-width: 1900px;
-    position: fixed;
-    z-index: 1000;
-    img {
-        height: 30px;
+header {
+  background: $color-black;
+  width: 100%;
+  max-width: 1900px;
+  position: fixed;
+  z-index: 1000;
+
+  img {
+    height: 30px;
+  }
+
+  .home {
+    &:hover {
+      color: white;
     }
-    .home {       
-        &:hover{
-            color: white;
-        } 
-    }    
+  }
 }
 
-.jumbotron {    
-     background-color: $color-pink !important;    
+.jumbotron {
+  background-color: $color-pink !important;
 }
-
 
 .carousel-item {
-    img {
-        height: 250px;       
-    }
-    
-    button {
-        background-color: $color-pink;
-    }
+  img {
+    height: 250px;
+  }
+
+  button {
+    background-color: $color-pink;
+  }
 }
 
 .main-area {
-    img {
-        height: 200px;
+  img {
+    height: 200px;
+  }
+
+  .transition {
+    &:hover {
+      transform: scale(1.1, 1.1);
+      box-shadow: 10px 10px 5px grey;
     }
-    .transition {
-        &:hover{
-            transform: scale(1.1, 1.1);
-            box-shadow: 10px 10px 5px grey;
-        }
-    }
+  }
 }
 
 footer {
-    font-family: gotham-rounded-light, serif;    
-    h5{
-        font-family: gotham-bold, serif;             
-    }
-    .footer-logo {
-        height: 50px;
-    }
-    
-    .flex-footer {
-      @include flexColumn;
-    }
-   
+  font-family: gotham-rounded-light, serif;
+
+  h5 {
+    font-family: gotham-bold, serif;
+  }
+
+  .footer-logo {
+    height: 50px;
+  }
+
+  .flex-footer {
+    @include flexColumn;
+  }
 }

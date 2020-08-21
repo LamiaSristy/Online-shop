@@ -45,19 +45,19 @@
 }
 
 .pink-text {
-  color: #D35266;
+  color: #d35266;
 }
 
 .gray-text {
-  color: #888888;
+  color: #888;
 }
 
 .pink-button {
-  background-color: #D35266;
+  background-color: #d35266;
 }
 
 .bg-pink {
-  background-color: #D35266;
+  background-color: #d35266;
 }
 
 .text-color:hover {
@@ -106,7 +106,7 @@ header .home:hover {
 }
 
 .jumbotron {
-  background-color: #D35266 !important;
+  background-color: #d35266 !important;
 }
 
 .carousel-item img {
@@ -114,7 +114,7 @@ header .home:hover {
 }
 
 .carousel-item button {
-  background-color: #D35266;
+  background-color: #d35266;
 }
 
 .main-area img {
