@@ -14,44 +14,78 @@
     <title>Loniryy</title>
 </head>
 <body class="mx-auto">
+     
     <header>        
-            <div class="container">               
-                <nav class="navbar navbar-expand navbar-expand-sm col-12  d-md-block d-lg-block ">
+            <div class="container">    
+                         
+                <nav class="navbar navbar-expand navbar-expand-sm  col-12  d-sm-block d-lg-block ">
                     <div class="d-flex justify-content-between">
                         <div class="d-flex">
                             <a class="navbar-brand " href="#">
                                 <img src="assets/img/Logo.png" alt="Logo">
                             </a>
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">                           
+                            <ul class="navbar-nav d-flex justify-content-between">
+                                <li class="nav-item active d-none d-md-block">                           
                                     <a class="nav-link home pink-text" href="#"> 
                                         <i class="fas fa-home"></i>
                                          Home 
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link text-color gray-text " href="#">
+                                <li class="nav-item  d-none d-md-block">
+                                    <a class="nav-link text-color gray-text" href="#">
                                         <i class="far fa-file-alt"></i>
                                         Collection
                                     </a>
                                 </li>                           
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-md-block">
                                     <a class="nav-link text-color gray-text " href="search.html">
                                         <i class="fas fa-search"></i>
                                         Search
                                     </a>
                                 </li>
-                            </ul>
-                        </div> 
-                        <div class="d-none d-md-block">
-                            <ul class="navbar-nav d-flex justify-content-end my-2 my-lg-0">
-                                <li class="nav-item pr-2">
+                                
+                                 <!-- Visible in small screen -->
+
+                                <li class="nav-item active d-block d-md-none d-lg-none pl-3">                           
+                                    <a class="nav-link home pink-text" href="#"> 
+                                        <i class="fas fa-home"></i> 
+                                    </a>
+                                </li>
+
+                                <li class="nav-item d-block d-md-none d-lg-none pl-3">
+                                    <a class="nav-link text-color gray-text " href="./index.html">
+                                        <i class="far fa-file-alt"></i>                                       
+                                    </a>
+                                </li>
+                                 
+                                <li class="nav-item d-block d-md-none d-lg-none pl-3">
+                                    <a class="nav-link text-color gray-text " href="./search.html">
+                                        <i class="fas fa-search"></i>                                       
+                                    </a>
+                                </li>
+
+                                <li class="text-white d-block d-md-none d-lg-none pl-3">
                                     <a class="nav-link text-color gray-text"  href="#" data-toggle="tooltip" data-placement="top" title="cart">
                                         <i class="fas fa-cart-arrow-down"></i>                                    
                                     </a>
                                 </li>
-                                <li class="nav-item pr-3">
+                                <li class="text-white d-block d-md-none d-lg-none pl-3 pt-1">                                
+                                    <img class="rounded-circle mt-1 " data-toggle="tooltip" data-placement="top" title="Your Profile" src="assets/img/grey-user.png" alt="user-image">
+                                </li>
+                                
+                                  <!-- Visible in small screen -->
+
+                            </ul>
+                        </div> 
+                        <div class="d-none d-md-block">
+                            <ul class="navbar-nav d-flex justify-content-end my-2 my-lg-0">
+                                <li class="nav-item pr-2 ">
+                                    <a class="nav-link text-color gray-text"  href="#" data-toggle="tooltip" data-placement="top" title="cart">
+                                        <i class="fas fa-cart-arrow-down"></i>                                    
+                                    </a>
+                                </li>
+                                <li class="nav-item pr-3 ">
                                     <a class="nav-link text-color gray-text" data-toggle="tooltip" data-placement="top" title="Email-us" href="#">
                                         <i class="fas fa-envelope-square"></i>                                   
                                     </a>
@@ -67,32 +101,37 @@
               
     </header>
 
-    <section id="show-case" class="d-none d-sm-block">       
-        <div class=" jumbotron jumbotron-fluid text-white my-2 pt-3">
-            <div class="container text-center p-2">
-              <h1 class="display-4">Loniryy</h1>
-              <p class="lead">Trendy watches now one click ahead !!!</p>
-              <form>
-                <div class="form-group d-flex justify-content-center">
-                    <div class="dropdown">
-                        <button class="btn btn-light dropdown-toggle mr-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Collections
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Classic</a>
-                        <a class="dropdown-item" href="#">Treandy</a>
-                        <a class="dropdown-item" href="#">Formal</a>
-                        </div>                   
+    
+    <section id="invisible" class="navbar navbar-expand navbar-expand-sm  col-12 pt-5 ">         
+    </section>
+
+
+    <section id="show-case" class="d-none d-sm-block ">       
+        <div class=" jumbotron jumbotron-fluid text-white">
+                    <div class="container text-center p-2">
+                    <h1 class="display-4">Loniryy</h1>
+                    <p class="lead">Trendy watches now one click ahead !!!</p>
+                    <form>
+                        <div class="form-group d-flex justify-content-center">
+                            <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle mr-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Collections
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Classic</a>
+                                <a class="dropdown-item" href="#">Treandy</a>
+                                <a class="dropdown-item" href="#">Formal</a>
+                                </div>                   
+                            </div>
+                            <p class="lead">                                               
+                                <a class="btn btn-light" href="#" role="button">What do you search for</a>
+                                <a class="btn btn-light" href="#" role="button">Preference</a>
+                                <a class="btn btn-secondary" href="./search.html" role="button">Submit</a>
+                            </p>
+                        </div>  
+                    </form>
+                                
                     </div>
-                    <p class="lead">                                               
-                        <a class="btn btn-light" href="#" role="button">What do you search for</a>
-                        <a class="btn btn-light" href="#" role="button">Preference</a>
-                        <a class="btn btn-secondary" href="#" role="button">Submit</a>
-                    </p>
-                </div>  
-              </form>
-                         
-            </div>
         </div>        
     </section>
 
@@ -158,30 +197,17 @@
     
     </section>
 
-    <section id="main-area" class="main-area bg-light mt-2">
+    <section id="main-area" >
         <div class="container">
-            <div id="casual">
-                <div class="d-flex gray-text border-bottom pt-2">
-                     <i class="fas fa-magic pt-1 mr-2"></i>                     
-                     <h5>Casual<small>(secondary text)</small></h5>
-                </div>
-                <div class="row">
-                    <div class="col-6 col-md-3">
-                      <div class="card my-4 transition">
-                        <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Beautiful Blue watch</h5>
-                            <p class="card-text pink-text">New</p>
-                            <p class="card-text text-grey">From:NYC, US.</p>
-                          </div>
-                          <div class="card-footer d-flex justify-content-between">
-                            <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
-                            <small class="pink-text">$130</small>
-                          </div>
-                      </div>                    
+            <div class="main-area bg-light mt-2 d-block">
+                <div id="casual">
+                    <div class="d-flex gray-text border-bottom pt-2">
+                         <i class="fas fa-magic pt-1 mr-2"></i>                     
+                         <h5>Casual<small>(secondary text)</small></h5>
                     </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card my-4 transition">
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                          <div class="card my-4 transition">
                             <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Beautiful Blue watch</h5>
@@ -192,10 +218,61 @@
                                 <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
                                 <small class="pink-text">$130</small>
                               </div>
-                          </div>  
+                          </div>                    
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card my-4 transition">
+                                <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beautiful Blue watch</h5>
+                                    <p class="card-text pink-text">New</p>
+                                    <p class="card-text text-grey">From:NYC, US.</p>
+                                  </div>
+                                  <div class="card-footer d-flex justify-content-between">
+                                    <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
+                                    <small class="pink-text">$130</small>
+                                  </div>
+                              </div>  
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card my-4 transition">
+                                <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beautiful Blue watch</h5>
+                                    <p class="card-text pink-text">New</p>
+                                    <p class="card-text text-grey">From:NYC, US.</p>
+                                  </div>
+                                  <div class="card-footer d-flex justify-content-between">
+                                    <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
+                                    <small class="pink-text">$130</small>
+                                  </div>
+                              </div>       
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card my-4 transition">
+                                <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beautiful Blue watch</h5>
+                                    <p class="card-text pink-text">New</p>
+                                    <p class="card-text text-grey">From:NYC, US.</p>
+                                  </div>
+                                  <div class="card-footer d-flex justify-content-between">
+                                    <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
+                                    <small class="pink-text">$130</small>
+                                  </div>
+                              </div>       
+                        </div>
                     </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card my-4 transition">
+                </div>  
+                
+                <div id="formal">
+                    <div class="d-flex gray-text border-bottom">
+                         <i class="fas fa-magic pt-1 mr-2"></i>
+                         <h5>Formal<small>(secondary text)</small></h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                          <div class="card my-4 transition">
                             <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Beautiful Blue watch</h5>
@@ -206,10 +283,61 @@
                                 <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
                                 <small class="pink-text">$130</small>
                               </div>
-                          </div>       
+                          </div>                    
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card my-4 transition">
+                                <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beautiful Blue watch</h5>
+                                    <p class="card-text pink-text">New</p>
+                                    <p class="card-text text-grey">From:NYC, US.</p>
+                                  </div>
+                                  <div class="card-footer d-flex justify-content-between">
+                                    <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
+                                    <small class="pink-text">$130</small>
+                                  </div>
+                              </div>  
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card my-4 transition">
+                                <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beautiful Blue watch</h5>
+                                    <p class="card-text pink-text">New</p>
+                                    <p class="card-text text-grey">From:NYC, US.</p>
+                                  </div>
+                                  <div class="card-footer d-flex justify-content-between">
+                                    <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
+                                    <small class="pink-text">$130</small>
+                                  </div>
+                              </div>       
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card my-4 transition">
+                                <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beautiful Blue watch</h5>
+                                    <p class="card-text pink-text">New</p>
+                                    <p class="card-text text-grey">From:NYC, US.</p>
+                                  </div>
+                                  <div class="card-footer d-flex justify-content-between">
+                                    <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
+                                    <small class="pink-text">$130</small>
+                                  </div>
+                              </div>       
+                        </div>
                     </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card my-4 transition">
+                </div>  
+                
+                <div id="trendy">
+                    <div class="d-flex gray-text border-bottom">
+                         <i class="fas fa-magic pt-1 mr-2"></i>
+                         <h5>Trendy<small>(secondary text)</small></h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                          <div class="card my-4 transition">
                             <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Beautiful Blue watch</h5>
@@ -220,141 +348,57 @@
                                 <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
                                 <small class="pink-text">$130</small>
                               </div>
-                          </div>       
+                          </div>                    
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card my-4 transition">
+                                <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beautiful Blue watch</h5>
+                                    <p class="card-text pink-text">New</p>
+                                    <p class="card-text text-grey">From:NYC, US.</p>
+                                  </div>
+                                  <div class="card-footer d-flex justify-content-between">
+                                    <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
+                                    <small class="pink-text">$130</small>
+                                  </div>
+                              </div>  
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card my-4 transition">
+                                <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beautiful Blue watch</h5>
+                                    <p class="card-text pink-text">New</p>
+                                    <p class="card-text text-grey">From:NYC, US.</p>
+                                  </div>
+                                  <div class="card-footer d-flex justify-content-between">
+                                    <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
+                                    <small class="pink-text">$130</small>
+                                  </div>
+                              </div>       
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card my-4 transition">
+                                <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beautiful Blue watch</h5>
+                                    <p class="card-text pink-text">New</p>
+                                    <p class="card-text text-grey">From:NYC, US.</p>
+                                  </div>
+                                  <div class="card-footer d-flex justify-content-between">
+                                    <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
+                                    <small class="pink-text">$130</small>
+                                  </div>
+                              </div>       
+                        </div>
                     </div>
-                </div>
-            </div>  
-            
-            <div id="formal">
-                <div class="d-flex gray-text border-bottom">
-                     <i class="fas fa-magic pt-1 mr-2"></i>
-                     <h5>Formal<small>(secondary text)</small></h5>
-                </div>
-                <div class="row">
-                    <div class="col-6 col-md-3">
-                      <div class="card my-4 transition">
-                        <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Beautiful Blue watch</h5>
-                            <p class="card-text pink-text">New</p>
-                            <p class="card-text text-grey">From:NYC, US.</p>
-                          </div>
-                          <div class="card-footer d-flex justify-content-between">
-                            <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
-                            <small class="pink-text">$130</small>
-                          </div>
-                      </div>                    
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card my-4 transition">
-                            <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Beautiful Blue watch</h5>
-                                <p class="card-text pink-text">New</p>
-                                <p class="card-text text-grey">From:NYC, US.</p>
-                              </div>
-                              <div class="card-footer d-flex justify-content-between">
-                                <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
-                                <small class="pink-text">$130</small>
-                              </div>
-                          </div>  
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card my-4 transition">
-                            <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Beautiful Blue watch</h5>
-                                <p class="card-text pink-text">New</p>
-                                <p class="card-text text-grey">From:NYC, US.</p>
-                              </div>
-                              <div class="card-footer d-flex justify-content-between">
-                                <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
-                                <small class="pink-text">$130</small>
-                              </div>
-                          </div>       
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card my-4 transition">
-                            <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Beautiful Blue watch</h5>
-                                <p class="card-text pink-text">New</p>
-                                <p class="card-text text-grey">From:NYC, US.</p>
-                              </div>
-                              <div class="card-footer d-flex justify-content-between">
-                                <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
-                                <small class="pink-text">$130</small>
-                              </div>
-                          </div>       
-                    </div>
-                </div>
-            </div>  
-            
-            <div id="trendy">
-                <div class="d-flex gray-text border-bottom">
-                     <i class="fas fa-magic pt-1 mr-2"></i>
-                     <h5>Trendy<small>(secondary text)</small></h5>
-                </div>
-                <div class="row">
-                    <div class="col-6 col-md-3">
-                      <div class="card my-4 transition">
-                        <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Beautiful Blue watch</h5>
-                            <p class="card-text pink-text">New</p>
-                            <p class="card-text text-grey">From:NYC, US.</p>
-                          </div>
-                          <div class="card-footer d-flex justify-content-between">
-                            <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
-                            <small class="pink-text">$130</small>
-                          </div>
-                      </div>                    
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card my-4 transition">
-                            <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Beautiful Blue watch</h5>
-                                <p class="card-text pink-text">New</p>
-                                <p class="card-text text-grey">From:NYC, US.</p>
-                              </div>
-                              <div class="card-footer d-flex justify-content-between">
-                                <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
-                                <small class="pink-text">$130</small>
-                              </div>
-                          </div>  
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card my-4 transition">
-                            <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Beautiful Blue watch</h5>
-                                <p class="card-text pink-text">New</p>
-                                <p class="card-text text-grey">From:NYC, US.</p>
-                              </div>
-                              <div class="card-footer d-flex justify-content-between">
-                                <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
-                                <small class="pink-text">$130</small>
-                              </div>
-                          </div>       
-                    </div>
-                    <div class="col-6 col-md-3">
-                        <div class="card my-4 transition">
-                            <img class="card-img-top" src="assets/img/watch1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Beautiful Blue watch</h5>
-                                <p class="card-text pink-text">New</p>
-                                <p class="card-text text-grey">From:NYC, US.</p>
-                              </div>
-                              <div class="card-footer d-flex justify-content-between">
-                                <i class="far fa-plus-square" data-toggle="tooltip" data-placement="top" title="Add to cart"></i>  
-                                <small class="pink-text">$130</small>
-                              </div>
-                          </div>       
-                    </div>
-                </div>
-            </div>  
+                </div> 
+            </div>
+             
     </section>
+   
+
 
     
     <footer class="mt-3 pl-3 gray-text bg-dark">
@@ -371,7 +415,7 @@
                         <span class="pink-text font-weight-bold">Michael Kors</span>  , 
                         <span class="pink-text font-weight-bold">Diesel </span>. </p>
                 </div>
-                <div class="col-6 col-sm-6 col-md-4 p-3 d-block">
+                <div class="d-none d-md-block col-md-4 p-3">
                     <h5 class="px-3 font-weight-bold pink-text">ABOUT US</h5>
                     <hr class="bg-pink">
                     <div class="flex-footer">
@@ -400,7 +444,7 @@
 
                     </div>                    
                 </div>                
-                <div class="col-6 col-sm-6 col-md-3 justify-content-center pt-3 ">
+                <div class="d-none d-md-block  col-md-3 justify-content-center pt-3 ">
                     <h5 class="px-3 font-weight-bold pink-text">INFORMATION</h5>
                     <hr class="bg-pink">
                     <ul class="list-unstyled d-block">
