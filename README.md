@@ -1,7 +1,9 @@
 # wristwatch-shop
 This is an online shop for buying and selling wristwatches. The website designed by following from an online shop for electronics designed by Mohammed Awad on Behance.
 
-<img src="">
+<img src="assets/img/screenshot.png">
+
+
 ## Built With
 
 - HTML
@@ -12,8 +14,8 @@ This is an online shop for buying and selling wristwatches. The website designed
 
 ## Live Demo
 
-[Home-Page]()
-[Search-Page]()
+[Home-Page](https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/index.html)
+[Search-Page](https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/search.html)
 
 ## Author Details
 
