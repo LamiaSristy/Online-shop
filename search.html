@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="assets/styles/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/867f1dd431.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="assets/js/app.js"></script>
+        <link rel="shortcut icon" href="assets/img/Logo.png" type="image/x-icon">
+        <title>Loniryy</title>
+    </head>
+    <body class="mx-auto">
+        <header>         
+                <div class="container">               
+                    <nav class="navbar navbar-expand navbar-expand-sm col-12  d-md-block d-lg-block ">
+                        <div class="d-flex justify-content-between">                
+
+                            <div class="d-flex">
+                                <a class="navbar-brand " href="./index.html">
+                                    <img src="assets/img/Logo.png" alt="Logo">
+                                </a>
+                                <ul class="navbar-nav d-flex justify-content-between">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-color gray-text d-none d-md-block" href="./index.html">
+                                            <i class="fas fa-home"></i>
+                                            Home   
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-none d-md-block">
+                                        <a class="nav-link text-color gray-text " href="#">
+                                            <i class="far fa-file-alt"></i>
+                                            Collection
+                                        </a>
+                                    </li>                           
+                                    <li class="nav-item active d-none d-md-block">                           
+                                        <a class="nav-link home pink-text" href="#"> 
+                                            <i class="fas fa-search"></i>
+                                            Search
+                                            <span class="sr-only">(current)</span>
+                                        </a>
+                                    </li>
+                                    
+                                    <!-- Visible in small screen -->
+
+                                    <li class="nav-item d-block d-md-none d-lg-none pl-3">
+                                        <a class="nav-link text-color gray-text " href="./index.html">
+                                            <i class="fas fa-home"></i>                                       
+                                        </a>
+                                    </li>
+                                    <li class="nav-item d-block d-md-none d-lg-none pl-3">
+                                        <a class="nav-link text-color gray-text " href="./index.html">
+                                            <i class="far fa-file-alt"></i>                                       
+                                        </a>
+                                    </li>
+                                                            
+                                    <li class="nav-item active d-block d-md-none d-lg-none pl-3">                           
+                                        <a class="nav-link home pink-text" href="#"> 
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="text-white d-block d-md-none d-lg-none pl-3">
+                                        <a class="nav-link text-color gray-text"  href="#" data-toggle="tooltip" data-placement="top" title="cart">
+                                            <i class="fas fa-cart-arrow-down"></i>                                    
+                                        </a>
+                                    </li>
+                                    <li class="text-white d-block d-md-none d-lg-none pl-3 pt-1">                                
+                                        <img class="rounded-circle mt-1 " data-toggle="tooltip" data-placement="top" title="Your Profile" src="assets/img/grey-user.png" alt="user-image">
+                                    </li>
+                                    
+                                    <!-- Visible in small screen -->
+
+                                </ul>
+                            </div> 
+                            <div class="d-none d-md-block">
+                                <ul class="navbar-nav d-flex justify-content-end my-2 my-lg-0">
+                                    <li class="nav-item pr-2">
+                                        <a class="nav-link text-color gray-text"  href="#" data-toggle="tooltip" data-placement="top" title="cart">
+                                            <i class="fas fa-cart-arrow-down"></i>                                    
+                                        </a>
+                                    </li>
+                                    <li class="nav-item pr-3">
+                                        <a class="nav-link text-color gray-text" data-toggle="tooltip" data-placement="top" title="Email-us" href="#">
+                                            <i class="fas fa-envelope-square"></i>                                   
+                                        </a>
+                                    </li>
+                                    <li class="text-white ">                                
+                                        <img class="rounded-circle mt-1 " data-toggle="tooltip" data-placement="top" title="Your Profile" src="assets/img/grey-user.png" alt="user-image">
+                                    </li>
+                                </ul>
+                            </div>             
+                        </div>              
+                    </nav>
+                </div>              
+        </header>  
+        
+        <main>            
+            <section id="invisible" class="navbar navbar-expand navbar-expand-sm  col-12 pt-5 ">         
+            </section>
+
+            <section id="show-case" class="d-none d-sm-block">       
+                <div class=" jumbotron jumbotron-fluid text-white">
+                    <div class="container">
+                        <article>
+                            <h1 class="display-4">Loniryy</h1>
+                            <p class="lead">A watch is not just an accessory, a watch says something about who you are, and should, therefore, suit you like no other. That is why Loniryy has watches from many brands, for every occasion and every taste, whether you want to buy a watch for yourself or a loved one. Loniryy has the watch that suits you!!!
+                            </p>
+                        </article>                   
+                        <form>
+                            <div class="form-group d-flex justify-content-center mt-3">
+                                <div class="dropdown">
+                                    <button class="btn btn-light dropdown-toggle mr-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Collections
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Classic</a>
+                                    <a class="dropdown-item" href="#">Treandy</a>
+                                    <a class="dropdown-item" href="#">Formal</a>
+                                    </div>                   
+                                </div>
+                                <p class="lead">                                               
+                                    <a class="btn btn-light" href="#" role="button">What do you search for</a>
+                                    <a class="btn btn-light" href="#" role="button">Preference</a>
+                                    <a class="btn btn-secondary" href="#" role="button">Submit</a>
+                                </p>
+                            </div>  
+                        </form>                         
+                    </div>
+                </div>        
+            </section>
+
+            <section id="search-area" class="search-area">
+                <div class="container bg-light ">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 pt-5 ">
+                            <form>
+                                <div class="form-flex">
+                                    <div class="checkbox">
+                                        <label class="gray-text font-italic"><input type="checkbox" value="">  Brand-new</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label class="gray-text font-italic"><input type="checkbox" value="">  Refurbished </label>
+                                    </div>   
+                                </div>                                            
+                            </form>                      
+
+                            <h4 class="border-bottom form-flex-secondary text-secondary pb-2">Type</h4>
+                            <form>
+                                <div class="checkbox form-flex-secondary">
+                                <label class="gray-text font-italic"><input type="checkbox" value="">  Option 1</label>
+                                </div>
+                                <div class="checkbox form-flex-secondary">
+                                <label class="gray-text font-italic"><input type="checkbox" value="">  Option 2</label>
+                                </div>
+                                <div class="checkbox form-flex-secondary">
+                                    <label class="gray-text font-italic"><input type="checkbox" value="">  Option 3</label>
+                                </div>
+                                <div class="checkbox form-flex-secondary d-flex ">
+                                    <label class="gray-text font-italic"><input type="checkbox" value="" disabled>  Custom                                    
+                                    </label>
+                                    <input class="custom-searchbox ml-2" type="text" value="">
+                                </div>
+                            </form>
+
+                            <h4 class="border-bottom form-flex-secondary text-secondary pb-2">Brand</h4>
+                            <form>
+                                <div class="checkbox form-flex-secondary">
+                                <label class="gray-text font-italic"><input type="checkbox" value="">  Option 1</label>
+                                </div>
+                                <div class="checkbox form-flex-secondary">
+                                <label class="gray-text font-italic"><input type="checkbox" value="">  Option 2</label>
+                                </div>
+                                <div class="checkbox form-flex-secondary">
+                                    <label class="gray-text font-italic"><input type="checkbox" value="">  Option 3</label>
+                                </div>
+                                <div class="checkbox form-flex-secondary d-flex">
+                                    <label class="gray-text font-italic"><input type="checkbox" value="" disabled>   
+                                        Custom                                
+                                    </label>
+                                    <input class="custom-searchbox ml-2" type="text" value="">
+                                </div>
+                            </form>
+
+                            <h4 class="border-bottom form-flex-secondary text-secondary pb-2">Price Range</h4>
+                            <form>
+                                <div class="checkbox form-flex-secondary">
+                                <label class="gray-text font-italic"><input type="checkbox" value="">  Option 1</label>
+                                </div>
+                                <div class="checkbox form-flex-secondary">
+                                <label class="gray-text font-italic"><input type="checkbox" value="">  Option 2</label>
+                                </div>
+                                <div class="checkbox form-flex-secondary">
+                                    <label class="gray-text font-italic"><input type="checkbox" value="">  Option 3</label>
+                                </div>
+                                <div class="checkbox form-flex-secondary d-flex">
+                                    <label class="gray-text font-italic"><input type="checkbox" value="" disabled>  
+                                        Custom 
+                                    </label>
+                                    <input class="custom-searchbox ml-2" type="text" value="">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h5 class="py-3 text-secondary">Where fashion comes to life. Search around 124,500 items...</h5>
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/watch-search.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button font-weight-bold">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/Casual-1.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/Casual-2.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/Casual-4.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text ">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/Formal-4.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text ">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/Formal-2.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text ">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/Formal-1.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text ">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/Trendy-4.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text ">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/Trendy-2.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text ">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+
+                            <div class="row d-flex border p-2 mb-3 mx-2 product">
+                                <div class=" col-12 col-md-5 col-lg-4">
+                                    <img class="img-fluid" src="assets/img/Trendy-3.jpg" alt="watch">
+                                </div>
+                                <div class=" col-12 col-md-7 col-lg-8 d-flex flex-column justify-content-center">
+                                    <div class="">
+                                        <h5>Tissot Le Locle Ladies Watch Two Tone</h5>
+                                        <p class="pink-text ">T41218333</p>
+                                        <p>This item is excluded from promotional codes</p>
+                                        <p class="pink-text">2 in stock</p>
+                                        <p class="pink-text">Delivery policy</p>
+                                        <div class="search-flex">
+                                            <p>20 August, 2020</p>
+                                            <span>
+                                                <button class="btn text-white pink-button">Call us</button>
+                                                <button class="btn text-white pink-button">$660</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div id="pagination">
+                            <ul class="pagination">
+                                <li class=" mr-1 disabled"><a class="page-link text-secondary" href="#">Previous</a></li>
+                                <li class="active mr-1"><a class="page-link sr-only text-secondary" href="#">1</a></li>
+                                <li class=" mr-1"><a class="page-link text-secondary" href="#">2</a></li>
+                                <li class=" mr-1"><a class="page-link text-secondary" href="#">3</a></li>
+                                <li class=" mr-1"><a class="page-link text-secondary" href="#">4</a></li>
+                                <li class=" mr-1"><a class="page-link text-secondary" href="#">5</a></li>
+                                <li class=" mr-1"><a class="page-link text-secondary" href="#">6</a></li>
+                                <li class=" mr-1mr-2"><a class="page-link text-secondary border-0 bg-white" href="#">...</a></li>
+                                <li class=" mr-1"><a class="page-link text-secondary" href="#">15</a></li>
+                            </ul>
+                        </div>
+                    </div>            
+                </div>
+            </section>
+        </main>    
+        <footer class="mt-3 pl-3 gray-text bg-dark">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <article class="col-12 col-sm-12 col-md-5 text-center d-flex flex-column justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <img class="footer-logo" src="assets/img/Logo.png" alt="logo">
+                            <h2 class="pink-text footer-header">Loniryy</h2>
+                        </div>
+                        
+                        <p class="text-wrap display-responsive">At Loniryy you have come to the right place for ladies' watches and men's watches from all popular watch brands. Some of our watch brands include 
+                            <span class="pink-text font-weight-bold">Emporio Armani</span> ,
+                            <span class="pink-text font-weight-bold">Michael Kors</span>  , 
+                            <span class="pink-text font-weight-bold">Diesel </span>. </p>
+                    </article>
+                    <div class="d-none d-md-block col-md-4 p-3">
+                        <h5 class="px-3 font-weight-bold pink-text">ABOUT US</h5>
+                        <hr class="bg-pink">
+                        <article class="flex-footer">
+                            <div class="d-flex">
+                                <a href="#" class=" text-color gray-text">
+                                    <i class="fas fa-map-marker-alt p-1"></i>
+                                </a>                            
+                                <p> 3029 AD Galvanistraat </p>
+                            </div>
+                            <p>Rotterdam, South Holland, Netherlands.</p>
+                            <p class="pt-1">Chamber of Commerce number: 66471753</p>
+                            <p>VAT number: NL00000ZZZZZ</p>
+                            <div class="d-flex pt-2">
+                                <a href="#" class=" text-color gray-text">
+                                    <i class="fas fa-phone-alt p-1"></i>
+                                </a>                            
+                                <p>000 - 00 00 000 </p>
+                            </div>
+                            <div class="d-flex pt-2">
+                                <a href="#" class=" text-color gray-text">
+                                    <i class="far fa-envelope p-1"></i>
+                                </a>                   
+                                
+                                <p>email us</p>
+                            </div>
+                        </article>                    
+                    </div>                
+                    <div class="d-none d-md-block  col-md-3 justify-content-center pt-3 ">
+                        <h5 class="px-3 font-weight-bold pink-text">INFORMATION</h5>
+                        <hr class="bg-pink">
+                        <ul class="list-unstyled d-block">
+                            <li class="px-3">My account</li>
+                            <li class="px-3">Customer service</li>
+                            <li class="px-3">Payment options</li>
+                            <li class="px-3">Shipping & delivery</li>
+                            <li class="px-3">Returns</li>
+                            <li class="px-3">Guarantee</li>
+                            <li class="px-3">Privacy Policy</li>   
+                        </ul>                    
+                    </div>
+                </div>
+                <hr class="bg-pink">
+    
+                <div class="footer-bottom">
+                    <div class="">
+                        <p>© 2015 Loniryy - All rights reserved - Loniryy by LamiaSristy</p>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram "></i>
+                            <i class="fab fa-tumblr "></i>
+                            <i class="fab fa-linkedin-in "></i>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </div>
+            
+        </footer>  
+    </body>
+</html>
