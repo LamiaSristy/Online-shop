@@ -84,6 +84,11 @@ header {
 .product-area {
   img {
     height: 200px;
+    padding-top: 10px;
+  }
+
+  .heading {
+    margin-left: 10px;
   }
 
   .transition {
@@ -106,7 +111,7 @@ footer {
     margin: 0 10px 15px 0;
   }
 
-  .footer-h2 {
+  .footer-header {
     padding-top: 10px;
   }
 

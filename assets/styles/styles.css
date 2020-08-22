@@ -119,6 +119,11 @@ header .home:hover {
 
 .product-area img {
   height: 200px;
+  padding-top: 10px;
+}
+
+.product-area .heading {
+  margin-left: 10px;
 }
 
 .product-area .transition:hover {
@@ -141,7 +146,7 @@ footer .footer-logo {
   margin: 0 10px 15px 0;
 }
 
-footer .footer-h2 {
+footer .footer-header {
   padding-top: 10px;
 }
 
