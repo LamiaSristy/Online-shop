@@ -9,7 +9,7 @@
 </h1>
 
 Loniryy is an online shop for buying and selling wristwatches. This is the perfect place for purchasing fashionable watches as well as refurbished ones. 
-The website designed by following an online shop for electronics designed by Mohammed Awad on Behance.
+The website was originally designed by following an online shop for electronics designed by Mohammed Awad on Behance.
 
 ## Video presentation of the project 
 

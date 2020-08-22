@@ -3,7 +3,7 @@
 @import './searchpage';
 
 .pink-text {
-  color: $color-pink;
+  color: $color-pink;  
 }
 
 .gray-text {
@@ -32,7 +32,7 @@ body {
   h3,
   h4,
   h5 {
-    font-family: helvetica-neue-bold, serif;
+    font-family: helvetica-neue-bold, serif;    
   }
 
   span {
@@ -81,7 +81,7 @@ header {
   }
 }
 
-.main-area {
+.product-area {
   img {
     height: 200px;
   }
@@ -103,6 +103,11 @@ footer {
 
   .footer-logo {
     height: 50px;
+    margin: 0 10px 15px 0;
+  }
+
+  .footer-h2 {
+    padding-top: 10px;
   }
 
   .flex-footer {
