@@ -118,4 +118,33 @@ footer {
   .flex-footer {
     @include flexColumn;
   }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .display-responsive {
+      display: none;
+    }
+
+    .footer-logo {
+      height: 40px;
+      margin : 20px 10px 10px 0;      
+    }
+    
+    .footer-header {
+      padding-top: 20px;
+    }
+
+    .footer-bottom {    
+      font-size: 8px;
+    }
+  }
+  
 }
+
+
+

@@ -162,4 +162,28 @@ footer .flex-footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+footer .footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  footer .display-responsive {
+    display: none;
+  }
+  footer .footer-logo {
+    height: 40px;
+    margin: 20px 10px 10px 0;
+  }
+  footer .footer-header {
+    padding-top: 20px;
+  }
+  footer .footer-bottom {
+    font-size: 8px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
