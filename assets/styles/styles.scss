@@ -3,7 +3,7 @@
 @import './searchpage';
 
 .pink-text {
-  color: $color-pink;  
+  color: $color-pink;
 }
 
 .gray-text {
@@ -32,7 +32,7 @@ body {
   h3,
   h4,
   h5 {
-    font-family: helvetica-neue-bold, serif;    
+    font-family: helvetica-neue-bold, serif;
   }
 
   span {
@@ -124,7 +124,6 @@ footer {
     justify-content: space-around;
   }
 
-  
   @media screen and (max-width: 768px) {
     .display-responsive {
       display: none;
@@ -132,19 +131,15 @@ footer {
 
     .footer-logo {
       height: 40px;
-      margin : 20px 10px 10px 0;      
+      margin: 20px 10px 10px 0;
     }
-    
+
     .footer-header {
       padding-top: 20px;
     }
 
-    .footer-bottom {    
+    .footer-bottom {
       font-size: 8px;
     }
   }
-  
 }
-
-
-
