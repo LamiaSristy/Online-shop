@@ -118,7 +118,6 @@ header .home:hover {
 }
 
 .product-area img {
-  height: 200px;
   padding-top: 10px;
 }
 
@@ -131,6 +130,14 @@ header .home:hover {
           transform: scale(1.1, 1.1);
   -webkit-box-shadow: 10px 10px 5px grey;
           box-shadow: 10px 10px 5px grey;
+}
+
+@media screen and (max-width: 576px) {
+  .product-area img {
+    padding-top: 10px;
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
+  }
 }
 
 footer {

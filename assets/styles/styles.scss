@@ -27,6 +27,10 @@
 body {
   max-width: 1900px;
 
+  // img {
+  //   object-fit: cover;
+  // }
+
   h1,
   h2,
   h3,
@@ -83,7 +87,7 @@ header {
 
 .product-area {
   img {
-    height: 200px;
+    // height: 200px;
     padding-top: 10px;
   }
 
@@ -95,6 +99,13 @@ header {
     &:hover {
       transform: scale(1.1, 1.1);
       box-shadow: 10px 10px 5px grey;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    img {
+      padding-top: 10px;
+      object-fit: scale-down;
     }
   }
 }
