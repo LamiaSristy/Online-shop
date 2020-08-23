@@ -23,9 +23,9 @@ The website was originally designed by following an online shop for electronics 
 
 ## Live Demo
 
--[Home-Page](https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/index.html)
+-[Home-Page](https://raw.githack.com/LamiaSristy/Online-shop/master/index.html)
 
--[Search-Page](https://raw.githack.com/LamiaSristy/wristwatch-shop/feature1/search.html)
+-[Search-Page](https://raw.githack.com/LamiaSristy/Online-shop/master/search.html)
 
 ## Built With
 
