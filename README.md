@@ -59,7 +59,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/LamiaSristy/wristwatch-shop/tree/feature1
+$ git clone https://github.com/LamiaSristy/Online-shop
 
 # Go into the repository
 $ cd wristwatch-shop
