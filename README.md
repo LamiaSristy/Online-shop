@@ -39,17 +39,17 @@ The website was originally designed by following an online shop for electronics 
 ## Key Features
 ```bash
 # Build these 2 pages
-- the main page, with a link to the search page
-- the search search page
+  1. The main page, with a link to the search page
+  2. The search page, which also regenerate  to the main page.
 
 # Pages have versions for 2 different screen sizes
 - Mobile
 - Tablet & desktop
 
 # Build by following guidelines of the given design
-- colors
-- typographies: font face, size and weight
-- layout: composition and space between elements, for the 2 given screen sizes
+- Colors
+- Typographies: font face, size and weight
+- Layout: composition and space between elements, for the 2 given screen sizes
 ```
 
 
