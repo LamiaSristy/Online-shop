@@ -43,13 +43,13 @@ The website was originally designed by following an online shop for electronics 
   2. The search page, which also regenerate  to the main page.
 
 # Pages have versions for 2 different screen sizes
-- Mobile
-- Tablet & desktop
+  1.Mobile
+  2.Tablet & desktop
 
 # Build by following guidelines of the given design
-- Colors
-- Typographies: font face, size and weight
-- Layout: composition and space between elements, for the 2 given screen sizes
+  1.Colors
+  2.Typographies: font face, size and weight
+  3.Layout: composition and space between elements, for the 2 given screen sizes
 ```
 
 
